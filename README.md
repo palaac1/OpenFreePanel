@@ -47,10 +47,10 @@ python manage.py aws_update_images
 
 更新程序
 
-`docker stop panel` # 停止当前容器
-`docker rm panel` # 删除当前容器
-`docker pull cdntip/panel:latest` # 拉取最新的镜像
-`docker run -d -it --network cdntip_network -p 8111:80 --name panel cdntip/panel:latest` # 重新创建程序容器
+`docker stop panel` # 停止当前容器<br>
+`docker rm panel` # 删除当前容器<br>
+`docker pull cdntip/panel:latest` # 拉取最新的镜像<br>
+`docker run -d -it --network cdntip_network -p 8111:80 --name panel cdntip/panel:latest` # 重新创建程序容器<br>
 
 查看日志
 

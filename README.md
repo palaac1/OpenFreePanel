@@ -63,10 +63,10 @@ python manage.py aws_update_images
 
 其它说明
 
-目前支持 aws、azure、linode（1.3版本）
-后端暂时未上传到github, 但是代码都是未加密的, 在容器中可以看到。
-docker 暂时只有x86平台(不支持arm平台)
-目前版本为预览版，有问题请到群里反馈 @cdntip
-常见问题
+目前支持 aws、azure、linode（1.3版本）<br>
+后端暂时未上传到github, 但是代码都是未加密的, 在容器中可以看到。<br>
+docker 暂时只有x86平台(不支持arm平台)<br>
+目前版本为预览版，有问题请到群里反馈 @cdntip<br>
+常见问题<br>
 
-重启之后面板打不开， 运行 service docker start && docker start panel_mysql && docker restart panel
+重启之后面板打不开， 运行 `service docker start && docker start panel_mysql && docker restart panel`
